@@ -36,9 +36,6 @@ jobs:
           distribution: 'oracle'
           cache: maven
 
-      - name: Run Maven tests
-        run: mvn test --quiet
-
       - name: Build JAR file
         run: mvn clean package --quiet
 
