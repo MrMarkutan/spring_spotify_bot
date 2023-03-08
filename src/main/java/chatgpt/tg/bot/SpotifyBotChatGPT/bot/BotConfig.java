@@ -5,7 +5,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 @Component
-@PropertySource("bot.properties")
+@PropertySource("classpath:bot.properties")
 public class BotConfig {
 
     @Value("${telegram.bot.username}")
