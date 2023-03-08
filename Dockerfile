@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copy the application's JAR file to the container
 ARG JAR_FILE
-COPY target/${JAR_FILE} /app/my-java-app.jar
+COPY target/${JAR_FILE}.jar /app/my-java-app.jar
 
 # Expose port 8080 for the application
 EXPOSE 8080
