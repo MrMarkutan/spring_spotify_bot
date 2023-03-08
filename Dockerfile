@@ -12,4 +12,4 @@ COPY target/${JAR_FILE} /app/my-java-app.jar
 EXPOSE 8080
 
 # Set the command to run when the container starts
-CMD ["java", "-jar", "${JAR_FILE}.jar"]
+CMD ["java", "-jar", "my-java-app.jar"]
