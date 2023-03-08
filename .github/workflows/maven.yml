@@ -6,7 +6,7 @@
 ## separate terms of service, privacy policy, and support
 ## documentation.
 #
-#name: Spring Spotify Bot
+name: Spring Spotify Bot
 #
 #on:
 #  push:
@@ -47,7 +47,7 @@
 #          tags: ${{ secrets.DOCKERHUB_USERNAME }}/github_action:latest
 #          build-args: |
 #            JAR_FILE=target/*.jar
-name: Build and Deploy
+#name: Build and Deploy
 
 on:
   push:
