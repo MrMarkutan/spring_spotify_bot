@@ -45,9 +45,8 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v4
         with:
-          context:
-            file: ./Dockerfile
-            push: true
-            tags: ${{ secrets.DOCKERHUB_USERNAME }}/github_action:latest
-            build-args: |
-              JAR_FILE=target/*.jar
+          context: .
+          push: true
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/github_action:latest
+          build-args: |
+            JAR_FILE=target/*.jar
