@@ -57,7 +57,7 @@ on:
 env:
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-  IMAGE_NAME: $DOCKER_USERNAME/github_action:latest
+  IMAGE_NAME: github_action:latest
 
 jobs:
   build:
