@@ -80,8 +80,8 @@ jobs:
       - name: Run Maven tests
         run: mvn test
 
-      - name: Username
-        run: echo $DOCKER_USERNAME
+      - name: Image Name
+        run: echo $IMAGE_NAME
 
 #      - name: Build Docker image
 #        run: docker build --build-arg JAR_FILE=target/*.jar -t $IMAGE_NAME .
