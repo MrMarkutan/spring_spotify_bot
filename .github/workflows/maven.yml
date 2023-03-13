@@ -80,7 +80,7 @@ jobs:
 #        run: mvn test
 #
       - name: Image Name
-        run: echo $IMAGE_NAME
+        run: echo $IMAGE_NAME:$TAG
 
 #      - name: Build Docker image
 #        run: docker build --build-arg JAR_FILE=target/*.jar -t $IMAGE_NAME .
