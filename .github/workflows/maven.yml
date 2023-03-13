@@ -94,7 +94,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/$IMAGE_NAME
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${IMAGE_NAME}
 #          tags: ${{ secrets.DOCKERHUB_USERNAME }}/github_action:latest
           build-args: |
             JAR_FILE=target/*.jar
