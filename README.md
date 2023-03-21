@@ -9,6 +9,7 @@ Sub-goals is to learn how to work with Telegram Bot library, SpotifyAPI and Spot
 This project was deployed to Heroku server (now it's disabled).
 <hr>
 <b>Commands:</b>
-  <li> /start - Welcome message</li>
-  <li> /help - Helper hint</li>
-  <li> /search <track_name> - Find track (case-sensitive)</li>
+
+- `/start` - Welcome message
+- `/help` - Helper hint
+- `/search <track_name>` - Find track (case-sensitive)
