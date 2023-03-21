@@ -13,3 +13,6 @@ This project was deployed to Heroku server (now it's disabled).
 - `/start` - Welcome message
 - `/help` - Helper hint
 - `/search <track_name>` - Find track (case-sensitive)
+
+<hr>
+Configure your own `bot.properties` for telegramBot and `application.properties` for Spotify API interaction.
